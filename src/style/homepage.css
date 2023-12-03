@@ -4,8 +4,6 @@
   padding-top: 150px;
   width: 100%;
   min-height: 100vh;
-  background-size: cover;
-
 }
 
 .home-left div, h1, p {
@@ -13,7 +11,7 @@
 } 
 
 .home-left {
-  width: 40%;
+  width: 50%;
 }
 
 .text-home {
@@ -54,11 +52,6 @@
   width: 950px;
   max-height: 100vh;
 }
-/* 
-.line {
-  position: absolute;
-  bottom: 10px;
-} */
 
 @media screen and (max-width:1245px) {
   .home-right, .home-right img {
@@ -95,5 +88,10 @@
 
   .star {
     width: 200px;
+}
+
+@media screen and (max-width:456px) {
+  .home-page {
+    padding-inline: 20px;
   }
 }
