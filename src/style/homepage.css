@@ -3,7 +3,7 @@
   padding: var(--pd-inline);
   padding-top: 150px;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .home-left div, h1, p {
@@ -49,8 +49,8 @@
 }
 
 .home-right img {
-  width: 950px;
-  max-height: 100vh;
+  width: 900px;
+  height: 100vh;
 }
 
 @media screen and (max-width:1245px) {
@@ -70,6 +70,7 @@
   .home-page {
     justify-content: center;
     align-items: center;
+    margin-bottom: 300px;
   }
 
   .text-home {text-align: center;}
