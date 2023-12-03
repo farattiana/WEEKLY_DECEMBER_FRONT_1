@@ -1,14 +1,14 @@
 #explore {
-  width: 100vw;
+  /* width: 100vw; */
+  height: 100vh;
   padding-inline: var(--pd-inline);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.explore h1 {
+#explore h1 {
   font-size: 35px;
   text-align: center;
 }
@@ -19,6 +19,8 @@
 
 #cards {
   flex-direction: column;
+  padding-inline: var(--pd-inline);
+  width: 100vw;
 }
 
 .cards-container {
@@ -37,6 +39,7 @@
 
 .card-item{
   width: 250px;
+  height: 250px;
   color: var(--primary-dark);
   align-items: left;
   justify-content: space-between;
@@ -66,14 +69,14 @@
 }
 
 @media screen and (min-width:783px) {
-  
   .paragraph-explore {
     width: 600px;
   }
 }
 
-@media screen and (max-width:456px) {
+@media screen and (max-width:783) {
   #explore {
+    margin-top: 1000px;
     padding-inline: 10px;
   }
 }

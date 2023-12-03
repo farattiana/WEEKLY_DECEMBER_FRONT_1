@@ -98,7 +98,7 @@
   transition: all 1s;
 }
 
-@media screen and (max-width: 1057px) and (min-width: 767px) { 
+@media screen and (max-width: 1112px) and (min-width: 767px) { 
   .navbar {
     padding-inline: 10px;
     justify-content: space-between;

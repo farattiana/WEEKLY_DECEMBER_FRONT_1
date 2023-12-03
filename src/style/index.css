@@ -1,6 +1,17 @@
 @import url(./navbar.css);
 @import url(./homepage.css);
 @import url(./explore.css);
+@import url(./product.css);
+
+@font-face {
+	font-family: Jost;
+	src: url(../../assets/fonts/jost/Jost-500-Medium.otf);
+}
+
+@font-face {
+	font-family: open-sans;
+	src: url(../../assets/fonts/open-sans/OpenSans-Regular.ttf);
+}
 
 :root {
 	--blue-primary : #49deff;
@@ -23,17 +34,18 @@
 	box-sizing: border-box;
 } 
 
-html,body{
+html,body {
 	position:relative;
 	scroll-behavior: smooth;
 	background-color: var(--white);
 	color: var(--dark-primary);
 	max-width: 1920px;
 	overflow-x: hidden;
+	font-family: open-sans, sans-serif;
 }
 
-hr {
-	color: var(--light-gray);
+body h1, h2, h3 {
+	font-family: Jost, sans-serif;
 }
 
 hr {
