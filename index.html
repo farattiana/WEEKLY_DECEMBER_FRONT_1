@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="./src/style/index.css">
+	<title> Document</title>
+</head>
+<body>
+
+<!-- navbar -->
+	<nav class="navbar flex">
+	
+		<div class="logo flex row center">
+			<span><img src="./assets/images/logo.png" alt="" class="logo-img"></span>
+			<span class="logo-title">PrimeCRM</span>
+		</div>
+
+
+		<div class="links-container">
+			<a class="link-item" href="#" style="--i:1;">Solution</a>
+			<a class="link-item" href="#" style="--i:2;">Industries</a>
+			<a class="link-item" href="#" style="--i:3;">Products</a>
+			<a class="link-item" href="#" style="--i:4;">Resources</a>
+			<a class="link-item" href="#" style="--i:4;">Pricing</a>
+			<a class="link-item login" href="#" style="--i:4;">Login</a>
+		</div>
+		<span id="burger-menu">&#9776</span>
+	</nav>
+	<!-- navbar mobile -->
+
+	<div class="mobile-links-container hide">
+		<span id="burger-close">&times;</span>
+		<div class="mobile-links flex row">
+			<a class="mobile-link-item" href="#">Solution</a>
+			<a class="mobile-link-item" href="#">Industries</a>
+			<a class="mobile-link-item" href="#">Products</a>
+			<a class="mobile-link-item" href="#">Resources</a>
+			<a class="mobile-link-item" href="#">Pricing</a>
+		</div>	
+		<div class="login-container">
+			<a class="mobile-link-item login-mobile" href="#Skills">Login</a>
+		</div>
+	</div>
+	
+	<script src="src/js/index.js"></script>
+</body>
+</html>

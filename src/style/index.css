@@ -1,0 +1,39 @@
+@import url(./navbar.css);
+
+:root {
+	--blue-primary : #49deff;
+	--cyan-primary : #4fffdf;
+	--dark-primary : #303030;
+	--dark-secondary : #4e4e4e;
+	--gray : #dedede;
+	--light-gray : #f4f4f4;
+	--white: #f9f9f9;
+}
+
+:root {
+	--pd-inline: 100px;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+html,body{
+	position:relative;
+	scroll-behavior: smooth;
+	color: var(--dark-primary);
+}
+
+.flex { display: flex;}
+
+.row { flex-direction: row;}
+
+.col { flex-direction: column;}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
