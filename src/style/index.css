@@ -1,4 +1,5 @@
 @import url(./navbar.css);
+@import url(./homepage.css);
 
 :root {
 	--blue-primary : #49deff;
@@ -24,7 +25,12 @@
 html,body{
 	position:relative;
 	scroll-behavior: smooth;
+	background-color: var(--white);
 	color: var(--dark-primary);
+}
+
+hr {
+	color: var(--light-gray);
 }
 
 .flex { display: flex;}
