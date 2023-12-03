@@ -1,6 +1,7 @@
 .navbar {
   position: fixed;
   width: 100%;
+	max-width: 1920px;
   height: max-content;
   padding-block: 20px;
   padding-inline: var(--pd-inline);
@@ -87,7 +88,8 @@
 
 @media screen and (max-width: 1057px) and (min-width: 767px) { 
   .navbar {
-    padding-inline: 20px;
+    padding-inline: 10px;
+    justify-content: space-between;
   }
 
   .links-container .link-item {
@@ -98,6 +100,7 @@
 @media screen and (max-width: 768px) {
   .navbar {
     justify-content: space-between;
+    padding-inline: 20px;
   }
   
   .navbar .logo span {
@@ -128,7 +131,8 @@
     backdrop-filter: blur(100px);
     z-index: 1;
     transition: transform 1s;
-    color: var(--dark-primary);        
+    color: var(--dark-primary);
+    overflow: hidden;        
   }
 
   .mobile-links {

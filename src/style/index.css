@@ -27,6 +27,11 @@ html,body{
 	scroll-behavior: smooth;
 	background-color: var(--white);
 	color: var(--dark-primary);
+	max-width: 1920px;
+}
+
+hr {
+	color: var(--light-gray);
 }
 
 hr {
