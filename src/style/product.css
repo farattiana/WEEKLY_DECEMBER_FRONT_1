@@ -1,6 +1,4 @@
 #product {
-  /* height: 100vh; */
-  /* padding-top: 100px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -23,7 +21,7 @@
 
 .product-right {
   width: 50%;
-  padding-right:var(--pd-inline) ;
+  padding-left:var(--pd-inline) ;
 }
 
 ul {
@@ -41,8 +39,6 @@ ul li {
     text-align: center;
   }
 
-  /* .product-left */
-
   .product-left, .product-right {
     width: 100%;
     padding-inline: var(--pd-inline);
@@ -57,7 +53,7 @@ ul li {
   }
 
   .product-right {
-    padding-right: 10px;
+    padding-inline: 10px;
   }
 }
 
