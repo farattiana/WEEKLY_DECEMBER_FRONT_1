@@ -1,5 +1,6 @@
 @import url(./navbar.css);
 @import url(./homepage.css);
+@import url(./explore.css);
 
 :root {
 	--blue-primary : #49deff;
@@ -28,6 +29,7 @@ html,body{
 	background-color: var(--white);
 	color: var(--dark-primary);
 	max-width: 1920px;
+	overflow-x: hidden;
 }
 
 hr {
