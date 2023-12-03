@@ -34,6 +34,10 @@ hr {
 	color: var(--light-gray);
 }
 
+hr {
+	color: var(--light-gray);
+}
+
 .flex { display: flex;}
 
 .row { flex-direction: row;}
